@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento Vertical</title>
 
-    /*Quando for realizar Alinhamento vertical é necessário a presença de um container e de um conteúdo
-    */
-
+   
     <style>
 #container{
-height: 500px;
+    position: relative;
+height: 96vh;
+background-color: purple;
+padding: 10px;
 
 }
 
 #conteudo{
-    height:200px;
+position: absolute;    
+height:200px;
+background-color: yellow;
+width: 400px;
+left: 50%;
+top: 50%;
+
+transform:translate(-50%,-50%);
 }
         
     </style>
@@ -27,9 +35,9 @@ height: 500px;
     
     
     <section id="container">
-<article>
+<article id="conteudo">
 
-</article id="conteudo">
+</article >
     </section>
     
 </body>
