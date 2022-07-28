@@ -13,22 +13,36 @@
 
     }
 table{
-    width: 400px;
+    width: 600px;
     border-collapse: collapse;
+    padding: 2px;
 }
 
 
 
 td{
     border: 1px solid black;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
+    background-position: right center;
     
 }
 
 div.img-fem{
- background-color: aqua;
- background-image: url("imagens/guia\ de\ tamanho\ feminino.png");
+    display: inline-block;
+    padding: 1%;
+    border-radius: 10px;
+    width: 100px;
+    height:500px;
+    background-image: url('imagens/guia\ de\ tamanho\ feminino.png');
+    background-repeat: no-repeat;
+
+}
+
+section.tabela-fem{
+    
+  
+
 }
     </style>
     <body>
@@ -69,8 +83,10 @@ TABLE = tabela
 
     </table>
 <p>Exemplo 2 - Tabela de Medidas Feminina</p>
+
+<section class="tabela-fem">
 <div class="img-fem">
-teste
+
 </div>
     <table> 
         <th>TABELA DE MEDIDAS FEMININAS</th>
@@ -107,5 +123,7 @@ teste
         </tr>
 
     </table>
+
+</section>
     </body>
 </html>
